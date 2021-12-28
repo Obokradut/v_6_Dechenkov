@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3FFAB"
+    tools:context=".steps">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/steps2_icon"
+                    app:srcCompat="@drawable/steps" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/global_steps"
+                    android:textColor="#071E94"
+                    android:textSize="24sp" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="35dp"
+            android:contentDescription="@string/globalstepsgraph"
+            app:srcCompat="@drawable/globalsteps" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E5E5E5"
+            android:orientation="vertical"
+            android:paddingLeft="18dp"
+            android:paddingTop="41dp"
+            android:paddingRight="18dp"
+            android:paddingBottom="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="98dp"
+                    android:background="#C4C4C4"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|left"
+                        android:layout_marginStart="41dp"
+                        android:contentDescription="@string/man_icon"
+                        app:srcCompat="@drawable/man"
+                        tools:ignore="ImageContrastCheck,RtlHardcoded" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="52dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="@string/marshruti"
+                        android:textColor="#F4B105"
+                        android:textFontWeight="700"
+                        android:textSize="24sp"
+                        tools:ignore="RtlHardcoded,TextContrastCheck"
+                        tools:targetApi="p" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:clickable="true"
+                android:onClick="OnClick"
+                android:orientation="horizontal"
+                android:focusable="true"
+                tools:ignore="UsingOnClickInXml">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="98dp"
+                    android:background="#C4C4C4"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="23dp"
+                        android:contentDescription="@string/shortinfo_icon"
+                        app:srcCompat="@drawable/info"
+                        tools:ignore="ImageContrastCheck,RtlHardcoded" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginBottom="6dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="@string/shortinfo"
+                        android:textColor="#079459"
+                        android:textFontWeight="700"
+                        android:textSize="24sp"
+                        tools:ignore="TextContrastCheck"
+                        tools:targetApi="p" />
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="18dp"
+                        android:contentDescription="@string/arrow_icon"
+                        app:srcCompat="@drawable/arow"
+                        tools:ignore="ImageContrastCheck,RtlHardcoded" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="OnClick"
+                android:orientation="horizontal"
+                android:focusable="true"
+                tools:ignore="UsingOnClickInXml">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="98dp"
+                    android:background="#C4C4C4"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="23dp"
+                        android:contentDescription="@string/biginfo_icon"
+                        app:srcCompat="@drawable/biginfo"
+                        tools:ignore="RtlHardcoded" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="52dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="@string/bigtextinfo"
+                        android:textColor="#071E94"
+                        android:textFontWeight="700"
+                        android:textSize="24sp"
+                        tools:ignore="RtlHardcoded"
+                        tools:targetApi="p" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

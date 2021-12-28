@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DBE891"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="73dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:paddingBottom="27dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="376dp"
+                android:layout_height="90dp"
+                android:background="#F3FFAB"
+                android:padding="21dp"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/device"
+                    app:srcCompat="@drawable/device"
+                    tools:ignore="ImageContrastCheck" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mysmartd"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="16dp"
+                    android:textColor="@color/black"
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:fontFamily="@font/roboto_regular"
+                    tools:targetApi="p" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="376dp"
+                android:layout_height="76dp"
+                android:layout_marginBottom="13dp"
+                android:background="#E5E5E5"
+                android:clickable="false"
+                android:focusable="true"
+                android:padding="21dp"
+                tools:ignore="UsingOnClickInXml">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/geo"
+                    app:srcCompat="@drawable/geo" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/km"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    tools:ignore="RtlHardcoded" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp"
+                android:background="#E5E5E5"
+                android:padding="21dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/kcal_photo"
+                    app:srcCompat="@drawable/kcal" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/kcal"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    tools:ignore="RtlHardcoded" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#E5E5E5"
+                android:padding="21dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/time_icon"
+                    app:srcCompat="@drawable/time"
+                    tools:ignore="ImageContrastCheck" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/min"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    tools:ignore="RtlHardcoded" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="23dp"
+                android:background="#E5E5E5"
+                android:clickable="true"
+                android:onClick="OnClick"
+                android:padding="21dp"
+                android:focusable="true"
+                tools:ignore="UsingOnClickInXml">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/steps_icon"
+                    app:srcCompat="@drawable/steps" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/steps"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    tools:ignore="RtlHardcoded" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="UselessParent">
+                    <LinearLayout
+                        android:layout_width="178dp"
+                        android:layout_height="157dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="#e5e5e5"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="144dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:id="@+id/imageView12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="31dp"
+                                android:layout_marginBottom="22dp"
+                                app:srcCompat="@drawable/kg"
+                                android:contentDescription="@string/kg2_icom" />
+
+                            <TextView
+                                android:id="@+id/textView9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/kg2"
+                                android:fontFamily="@font/roboto_regular"
+                                android:textSize="24sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/graph1"
+                            app:srcCompat="@drawable/graph1"
+                            tools:ignore="ImageContrastCheck" />
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="UselessParent">
+                    <LinearLayout
+                        android:layout_width="178dp"
+                        android:layout_height="157dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="#e5e5e5"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="144dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:id="@+id/imageView6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/bmp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="19.3dp"
+                                android:contentDescription="@string/bmp_icon" />
+
+                            <TextView
+                                android:id="@+id/textView6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/bpm"
+                                android:fontFamily="@font/roboto_regular"
+                                android:textSize="24sp"/>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/graph2"
+                            tools:ignore="ImageContrastCheck"
+                            android:contentDescription="@string/graph2" />
+
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

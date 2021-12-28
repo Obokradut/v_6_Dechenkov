@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Dechenkov-v-06</string>
+    <string name="kcal">59 kcal</string>
+    <string name="mysmartd">моё смарт-устройство</string>
+    <string name="device">TODO</string>
+    <string name="min">30 min</string>
+    <string name="geo">TODO</string>
+    <string name="kcal_photo">TODO</string>
+    <string name="km">1.3 km</string>
+    <string name="steps">1583 steps</string>
+    <string name="time">30 min</string>
+    <string name="device_icon">TODO</string>
+    <string name="geo_icon">TODO</string>
+    <string name="kcal_icon">TODO</string>
+    <string name="steps_icon">TODO</string>
+    <string name="time_icon">TODO</string>
+    <string name="kg2">62 kg</string>
+    <string name="kg2_icon">TODO</string>
+    <string name="graph1">TODO</string>
+    <string name="kg2_icom">TODO</string>
+    <string name="bpm">82 bmp</string>
+    <string name="bmp_icon">TODO</string>
+    <string name="graph2">TODO</string>
+    <string name="marshruti">маршруты</string>
+    <string name="shortinfo">краткая информация</string>
+    <string name="bigtextinfo">информация</string>
+    <string name="man_icon">TODO</string>
+    <string name="shortinfo_icon">TODO</string>
+    <string name="arrow_icon">TODO</string>
+    <string name="biginfo_icon">TODO</string>
+    <string name="global_steps">1583 steps</string>
+    <string name="steps2_icon">TODO</string>
+    <string name="globalstepsgraph">TODO</string>
+</resources>
